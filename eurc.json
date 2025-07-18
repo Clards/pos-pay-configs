@@ -3,9 +3,9 @@
   "branding": {
     "name": "EURC POS",
     "logo": "https://media.gesp.ro/logos/eurc.png",
-    "supportEmail": "support@example.com",
-    "privacyPolicy": "https://www.eurc.io/privacy-policy",
-    "termsOfService": "https://www.eurc.io/terms-of-service"
+    "supportEmail": "office@gesp.io",
+    "privacyPolicy": "https://media.gesp.ro/clards/privacy-policy.html",
+    "termsOfService": "https://media.gesp.ro/clards/terms-of-use.html"
   },
   "token": {
     "name": "EURC",
