@@ -52,7 +52,7 @@
       "chainId": "8453",
       "name": "Base",
       "symbol": "ETH",
-      "rpc": "https://base.llamarpc.com",
+      "rpc": "https://mainnet.base.org",
       "explorer": "https://basescan.org",
       "eip681Scheme": "base",
       "bip21Identifier": "base",
