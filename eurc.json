@@ -25,7 +25,7 @@
       "name": "BIP21",
       "description": "BIP21 payment link",
       "icon": null,
-      "generateUrl": "{chainId}:{address}?token={tokenAddress}&amount={amount}"
+      "generateUrl": "{chainScheme}:{address}?token={tokenAddress}&amount={amount}"
     }
   ],
   "networks": [
