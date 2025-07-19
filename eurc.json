@@ -93,7 +93,7 @@
     "clipboard": true,
     "scanner": true,
     "hapticFeedback": true,
-    "cardDesign": "bank-card"
+    "cardDesign": "minimalist"
   },
   "mockData": {
     "showMockTransactions": false
