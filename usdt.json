@@ -1,0 +1,120 @@
+{
+  "version": "1.0.0",
+  "branding": {
+    "name": "USDT",
+    "logo": "https://media.gesp.ro/logos/usdt.png",
+    "supportEmail": "office@gesp.io",
+    "privacyPolicy": "https://media.gesp.ro/clards/privacy-policy.html",
+    "termsOfService": "https://media.gesp.ro/clards/terms-of-use.html"
+  },
+  "token": {
+    "name": "USDT",
+    "symbol": "USDT",
+    "icon": "https://media.gesp.ro/logos/usdt.png"
+  },
+  "qrFormats": [
+    {
+      "id": "plain",
+      "name": "Plain Address",
+      "description": "Simple wallet address",
+      "icon": null,
+      "generateUrl": "{address}"
+    },
+    {
+      "id": "bip21",
+      "name": "BIP21",
+      "description": "BIP21 payment link",
+      "icon": null,
+      "generateUrl": "{chainScheme}:{address}?token={tokenAddress}&amount={amount}"
+    }
+  ],
+  "networks": [
+    {
+      "chainId": "42161",
+      "name": "Arbitrum One",
+      "symbol": "ETH",
+      "rpc": "https://arb1.arbitrum.io/rpc",
+      "explorer": "https://arbiscan.io",
+      "eip681Scheme": "arbitrumone",
+      "bip21Identifier": "arbitrumone",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/16547/standard/arb.jpg?1721358242",
+        "solid": "#203147",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "chainId": "43114",
+      "name": "Avalanche C",
+      "symbol": "AVAX",
+      "rpc": "https://api.avax.network/ext/bc/C/rpc",
+      "explorer": "https://snowtrace.io",
+      "eip681Scheme": "avalanchec",
+      "bip21Identifier": "avalanchec",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/12559/standard/Avalanche_Circle_RedWhite_Trans.png",
+        "solid": "#E84142",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "chainId": "8453",
+      "name": "Base",
+      "symbol": "ETH",
+      "rpc": "https://mainnet.base.org",
+      "explorer": "https://basescan.org",
+      "eip681Scheme": "base",
+      "bip21Identifier": "base",
+      "branding": {
+        "logo": "https://assets.coingecko.com/nft_contracts/images/2989/small_2x/base-introduced.png",
+        "solid": "#0052ff",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "chainId": "1",
+      "name": "Ethereum ERC20",
+      "symbol": "ETH",
+      "rpc": "https://ethereum-rpc.publicnode.com",
+      "explorer": "https://etherscan.io",
+      "eip681Scheme": "ethereum",
+      "bip21Identifier": "ethereum",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png",
+        "solid": "#454A75",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    }
+  ],
+  "features": {
+    "transactionHistory": true,
+    "multipleAddresses": true,
+    "clipboard": true,
+    "scanner": true,
+    "hapticFeedback": true,
+    "cardDesign": "minimalist"
+  },
+  "mockData": {
+    "showMockTransactions": false
+  }
+}
