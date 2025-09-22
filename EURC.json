@@ -7,7 +7,7 @@
   "qrFormats": [
     {
       "id": "plain",
-      "name": "Plain Address",
+      "name": "Plain",
       "generateUrl": "{address}"
     },
     {
@@ -68,7 +68,7 @@
       "id": "ethereum",
       "aliases": [],
       "chainId": "1",
-      "name": "Ethereum ERC20",
+      "name": "Ethereum",
       "symbol": "ETH",
       "tokenStandard": "ERC20",
       "rpc": "https://mainnet.infura.io/v3/",
