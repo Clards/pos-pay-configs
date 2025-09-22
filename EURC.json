@@ -18,7 +18,7 @@
     {
       "id": "eip681",
       "name": "EIP-681",
-      "generateUrl": "ethereum:{tokenAddress}@{chainId}/transfer?address={address}&uint256={amount}"
+      "generateUrl": "ethereum:{tokenAddress}@{chainId}/transfer?address={address}&uint256={amountWei}"
     }
   ],
   "networks": [
