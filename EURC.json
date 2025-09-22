@@ -29,7 +29,7 @@
       "name": "Avalanche C",
       "symbol": "AVAX",
       "tokenStandard": "ARC20",
-      "rpc": "https://avalanche-mainnet.infura.io/v3/",
+      "rpc": "https://avax-mainnet.g.alchemy.com/v2/",
       "rpcFallback": "https://api.avax.network/ext/bc/C/rpc",
       "explorer": "https://snowtrace.io",
       "branding": {
@@ -50,7 +50,7 @@
       "name": "Base",
       "symbol": "ETH",
       "tokenStandard": "ERC20",
-      "rpc": "https://base-mainnet.infura.io/v3/",
+      "rpc": "https://base-mainnet.g.alchemy.com/v2/",
       "rpcFallback": "https://mainnet.base.org",
       "explorer": "https://basescan.org",
       "branding": {
@@ -71,7 +71,7 @@
       "name": "Ethereum",
       "symbol": "ETH",
       "tokenStandard": "ERC20",
-      "rpc": "https://mainnet.infura.io/v3/",
+      "rpc": "https://eth-mainnet.g.alchemy.com/v2/",
       "rpcFallback": "https://ethereum-rpc.publicnode.com",
       "explorer": "https://etherscan.io",
       "branding": {
