@@ -1,0 +1,174 @@
+{
+  "version": "1.0.1",
+  "name": "USDT",
+  "logo": "https://media.gesp.ro/logos/usdt.png",
+  "maintenancePos": false,
+  "maintenancePay": false,
+  "qrFormats": [
+    {
+      "id": "plain",
+      "name": "Plain",
+      "generateUrl": "{address}"
+    },
+    {
+      "id": "bip21",
+      "name": "BIP21",
+      "generateUrl": "{network}:{address}?token={tokenAddress}&amount={amount}"
+    },
+    {
+      "id": "eip681",
+      "name": "EIP-681",
+      "generateUrl": "ethereum:{tokenAddress}@{chainId}/transfer?address={address}&uint256={amountWei}"
+    }
+  ],
+  "networks": [
+    {
+      "id": "arbitrum",
+      "aliases": ["arbitrumone", "arbitrum one"],
+      "chainId": "42161",
+      "name": "Arbitrum",
+      "symbol": "ETH",
+      "tokenStandard": "ERC20",
+      "rpc": "https://arb-mainnet.g.alchemy.com/v2/",
+      "rpcFallback": "https://arb1.arbitrum.io/rpc",
+      "explorer": "https://arbiscan.io",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/16547/standard/arb.jpg",
+        "solid": "#28A0F0",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "id": "avalanche",
+      "aliases": ["avalanche c", "avalanchec"],
+      "chainId": "43114",
+      "name": "Avalanche C",
+      "symbol": "AVAX",
+      "tokenStandard": "ARC20",
+      "rpc": "https://avax-mainnet.g.alchemy.com/v2/",
+      "rpcFallback": "https://api.avax.network/ext/bc/C/rpc",
+      "explorer": "https://snowtrace.io",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/12559/standard/Avalanche_Circle_RedWhite_Trans.png",
+        "solid": "#E84142",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "id": "base",
+      "aliases": [],
+      "chainId": "8453",
+      "name": "Base",
+      "symbol": "ETH",
+      "tokenStandard": "ERC20",
+      "rpc": "https://base-mainnet.g.alchemy.com/v2/",
+      "rpcFallback": "https://mainnet.base.org",
+      "explorer": "https://basescan.org",
+      "branding": {
+        "logo": "https://assets.coingecko.com/nft_contracts/images/2989/small_2x/base-introduced.png",
+        "solid": "#0052ff",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "id": "bnbchain",
+      "aliases": ["bnbsmartchain", "bnb smart chain"],
+      "chainId": "56",
+      "name": "BNB BSC",
+      "symbol": "BNB",
+      "tokenStandard": "BEP20",
+      "rpc": "https://bnb-mainnet.g.alchemy.com/v2/",
+      "rpcFallback": "https://bsc-dataseed.bnbchain.org",
+      "explorer": "https://bscscan.com",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png",
+        "solid": "#F3BA2F",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0x55d398326f99059ff775485246999027b3197955",
+        "decimals": 18,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "id": "ethereum",
+      "aliases": [],
+      "chainId": "1",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "tokenStandard": "ERC20",
+      "rpc": "https://eth-mainnet.g.alchemy.com/v2/",
+      "rpcFallback": "https://ethereum-rpc.publicnode.com",
+      "explorer": "https://etherscan.io",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/279/standard/ethereum.png",
+        "solid": "#454A75",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+    {
+      "id": "optimism",
+      "aliases": [],
+      "chainId": "10",
+      "name": "Optimism",
+      "symbol": "ETH",
+      "tokenStandard": "ERC20",
+      "rpc": "https://opt-mainnet.g.alchemy.com/v2/",
+      "rpcFallback": "https://mainnet.optimism.io/",
+      "explorer": "https://explorer.optimism.io",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/25244/standard/Optimism.png",
+        "solid": "#FF0420",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    },
+
+    {
+      "id": "polygon",
+      "aliases": [],
+      "chainId": "137",
+      "name": "Polygon",
+      "symbol": "POL",
+      "tokenStandard": "ERC20",
+      "rpc": "https://polygon-mainnet.g.alchemy.com/v2/",
+      "rpcFallback": "https://polygon-rpc.com",
+      "explorer": "https://polygonscan.com",
+      "branding": {
+        "logo": "https://assets.coingecko.com/coins/images/32440/standard/polygon.png",
+        "solid": "#8247E5",
+        "text": "#FFFFFF"
+      },
+      "token": {
+        "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "decimals": 6,
+        "symbol": "USDT"
+      }
+    }
+  ]
+}
